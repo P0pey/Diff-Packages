@@ -17,5 +17,5 @@ Clone the repo and run the script
 ```shell=
 git clone https://github.com/mxmchdn/Diff-Packages.git
 
-./get_diff.sh
+./get_missing_pkg.sh
 ```
