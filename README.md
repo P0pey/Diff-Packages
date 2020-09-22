@@ -30,7 +30,10 @@ Example: I don't want to remove dmenu-manjaro
 ```bash
 looking for conflicting packages...
 :: openbsd-netcat and gnu-netcat are in conflict. Remove gnu-netcat? [y/N] y
-:: dmenu and dmenu-manjaro are in conflict. Remove dmenu-manjaro? [y/N]
+:: dmenu and dmenu-manjaro are in conflict. Remove dmenu-manjaro? [y/N] N
+error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+:: dmenu and dmenu-manjaro are in conflict
 ```
 Solution is to go on missing_pkg and remove dmenu line.
 ```vim
