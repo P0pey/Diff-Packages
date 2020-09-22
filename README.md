@@ -53,3 +53,5 @@ You will find many differents files
 * missing_pkg: (missing package)
 * Output/my_pkg: (list of your package)
 * Output/my_pkg_version (list of your package version)
+
+A la base je voulais juste faire des diff entre fichiers..
