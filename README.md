@@ -14,17 +14,33 @@ This project concern distro with pacman as package manager.
 ### Run
 
 Clone the repo and run the script
-```shell=
+```bash
 git clone https://github.com/mxmchdn/Diff-Packages.git
 
 ./get_missing_pkg.sh
 ```
 
-Install missing packages
-```shell=
+Install missing packages (!!! Be careful with your system packages !!!)
+```bash
 sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort missing_pkg))
 ```
 src: https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#List_of_installed_packages
+
+Example: I don't want to remove dmenu-manjaro
+```bash
+looking for conflicting packages...
+:: openbsd-netcat and gnu-netcat are in conflict. Remove gnu-netcat? [y/N] y
+:: dmenu and dmenu-manjaro are in conflict. Remove dmenu-manjaro? [y/N]
+```
+Solution is to go on missing_pkg and remove dmenu line.
+```vim
+dash
+dconf
+dkms
+dmenu (remove this line)
+docbook-xml
+docbook-xsl
+```
 
 ## About
 
