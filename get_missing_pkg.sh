@@ -9,11 +9,11 @@ wget https://ipxe.pie.cri.epita.fr/cri-pxe-images.s3.cri.epita.fr/pie-archlinux-
 # Get your packages list
 sudo pacman -Q > my_pkg_version
 
-# Run diff files
-diff pie-archlinux-pkglist.txt my_pkg_version > diff
-
 # Get a tiny list of my package
 sudo pacman -Qqe > my_pkg
+
+# Run diff files
+diff pie-archlinux-pkglist.txt my_pkg_version > diff
 
 # Clean diff file
 python3 diff_cleaner.py
