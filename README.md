@@ -22,7 +22,7 @@ git clone https://github.com/mxmchdn/Diff-Packages.git
 
 Install missing packages
 ```shell=
-sudo pacman -S --needed - < missing_pkg
+sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort missing_pkg))
 ```
 src: https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#List_of_installed_packages
 
