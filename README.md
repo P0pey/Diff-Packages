@@ -19,3 +19,12 @@ git clone https://github.com/mxmchdn/Diff-Packages.git
 
 ./get_missing_pkg.sh
 ```
+
+## About
+
+You will find many differents files
+
+* missing_version_pkg: (missing package and version conflict)
+* missing_pkg: (missing package)
+* Output/my_pkg: (list of your package)
+* Output/my_pkg_version (list of your package version)
