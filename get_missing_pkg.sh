@@ -1,5 +1,8 @@
 #! /bin/sh
 
+# Remove Output folder
+rm -rf Output/
+
 # Get CRI packages list
 wget https://ipxe.pie.cri.epita.fr/cri-pxe-images.s3.cri.epita.fr/pie-archlinux-pkglist.txt
 
