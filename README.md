@@ -20,7 +20,7 @@ git clone https://github.com/mxmchdn/Diff-Packages.git
 ./get_missing_pkg.sh
 ```
 
-Install missing packages (!!! Be careful with your system packages !!!)
+Install missing packages (Skip AUR packages) (!!! Be careful with your system packages !!!)
 ```bash
 sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort missing_pkg))
 ```
