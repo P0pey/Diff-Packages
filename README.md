@@ -24,6 +24,7 @@ Install missing packages
 ```shell=
 sudo pacman -S --needed - < missing_pkg
 ```
+src: https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#List_of_installed_packages
 
 ## About
 
