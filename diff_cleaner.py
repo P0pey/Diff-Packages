@@ -1,6 +1,6 @@
 #! /bin/python3
 
-diff_file = "diff.txt"
+diff_file = "diff"
 
 f = open(diff_file)
 fo = open("missing_pkg", "w")
