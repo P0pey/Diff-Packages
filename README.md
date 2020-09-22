@@ -8,6 +8,8 @@ This project concern distro with pacman as package manager.
 ### Requierment
 
 * python3
+* diff
+* wget
 
 ### Run
 
