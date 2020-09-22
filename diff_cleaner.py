@@ -10,5 +10,5 @@ f.close()
 for line in L:
     if line[0] == '<':
         fo.write(line[2::])
-        print("Missing package ===> " + line[2::-1])
+        print("Missing package ===> " + line[2::], end="")
 fo.close()
