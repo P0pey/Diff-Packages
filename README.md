@@ -7,6 +7,7 @@ This project concern distro with pacman as package manager.
 
 ### Requierment
 
+* pacman
 * python3
 * diff
 * wget
