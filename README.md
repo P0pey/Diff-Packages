@@ -15,5 +15,7 @@ This project concern distro with pacman as package manager.
 
 Clone the repo and run the script
 ```shell=
+git clone https://github.com/mxmchdn/Diff-Packages.git
+
 ./get_diff.sh
 ```
