@@ -20,6 +20,11 @@ git clone https://github.com/mxmchdn/Diff-Packages.git
 ./get_missing_pkg.sh
 ```
 
+Install missing packages
+```shell=
+sudo pacman -S --needed - < missing_pk
+```
+
 ## About
 
 You will find many differents files
