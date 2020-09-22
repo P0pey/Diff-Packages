@@ -22,4 +22,3 @@ mkdir Output
 mv diff Output/
 mv my_pkg Output/
 mv pie-archlinux-pkglist.txt Output/
-mv missing_pkg Output/
