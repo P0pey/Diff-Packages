@@ -25,8 +25,6 @@ Install missing packages (Skip AUR packages) (!!! Be careful with your system pa
 ```bash
 sudo pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort missing_pkg))
 ```
-src: https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#List_of_installed_packages
-
 Example: I don't want to remove dmenu-manjaro
 ```bash
 looking for conflicting packages...
@@ -54,5 +52,10 @@ You will find many differents files
 * missing_pkg: (missing package)
 * Output/my_pkg: (list of your package)
 * Output/my_pkg_version (list of your package version)
+
+## Sources
+
+* pacman: [ArchWiki - Tips_and_tricks#List_of_installed_packages](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks#List_of_installed_packages)
+* [CRI packages](https://static.cri.epita.fr/pie/)
 
 A la base je voulais juste faire des diff entre fichiers..
