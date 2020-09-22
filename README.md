@@ -22,7 +22,7 @@ git clone https://github.com/mxmchdn/Diff-Packages.git
 
 Install missing packages
 ```shell=
-sudo pacman -S --needed - < missing_pk
+sudo pacman -S --needed - < missing_pkg
 ```
 
 ## About
